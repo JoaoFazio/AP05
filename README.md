@@ -2,32 +2,32 @@
 
 # AP05 – Implementação de Aplicação Web com Node.js e Vue.js.
 
-# <html>
+# HTML
 
-•  <html>: Esta tag define o início do documento HTML.
+• html: Esta tag define o início do documento HTML.
 
 •  lang="pt-br": Atributo que define o idioma do documento como português brasileiro.
 
-•  <head>: Esta tag contém informações sobre o documento, como metadados, links para estilos, scripts e o título da página.
+•  head: Esta tag contém informações sobre o documento, como metadados, links para estilos, scripts e o título da página.
 
-•  <meta charset="UTF-8" />: Define o conjunto de caracteres usado no documento como UTF-8, que suporta vários idiomas.
+•  meta charset="UTF-8" : Define o conjunto de caracteres usado no documento como UTF-8, que suporta vários idiomas.
 
-•  <meta name="viewport" content="width=device-width, initial-scale=1.0" />: Define a configuração de visualização para dispositivos móveis, ajustando a largura para o tamanho do dispositivo e definindo a escala inicial como 1.0.
+•  meta name="viewport" content="width=device-width, initial-scale=1.0" : Define a configuração de visualização para dispositivos móveis, ajustando a largura para o tamanho do dispositivo e definindo a escala inicial como 1.0.
 
 •  <title>Lista de tarefas</title>: Define o título da página.
 
-# <body>
+# body
 
-•  <body>: Esta tag contém todo o conteúdo visível da página.
+•  body: Esta tag contém todo o conteúdo visível da página.
 
-•  <div id="app"></div>: Define um contêiner com o ID "app" onde o aplicativo Vue será montado.
+•  div id="app" div: Define um contêiner com o ID "app" onde o aplicativo Vue será montado.
 
 •  <script type="module" src="/src/main.js"></script>: Inclui o arquivo JavaScript que contém o código do aplicativo Vue. O atributo type="module" indica que o script é um módulo JavaScript.
 
 
-#CSS (style.css)
+# CSS (style.css)
 
-# :root
+## :root
 
 •	Define as propriedades padrão para o documento.
 
@@ -45,7 +45,7 @@
 
 •	Aplica propriedades de renderização de fonte para melhor legibilidade e suavização em navegadores.
 
-#a
+# a
 
 •	Define a cor e o peso da fonte para links.
 
@@ -180,6 +180,8 @@ Define estilos para o efeito de seleção nas bolhas, aumentando seu tamanho e o
 
 # JavaScript:
 
+```javascript
+
 <script setup>
 import { ref, onMounted, computed, watch } from 'vue'
 
@@ -226,6 +228,8 @@ onMounted(() => {
 	todos.value = JSON.parse(localStorage.getItem('todos')) || []
 })
 </script>
+
+```
 
 •	Este bloco de script Vue é configurado com o setup syntax, uma forma compacta e conveniente de definir a lógica do componente.
 
@@ -330,26 +334,41 @@ Um loop v-for é usado para iterar sobre todas as tarefas existentes. Cada taref
 •	Um botão "Excluir" é fornecido para remover a tarefa da lista quando clicado.
 
 # Node.js e NPM:
+
 Baixado no site https://nodejs.org/en
+
 Depois de instalado foi verificado no terminal se foi instalado corretamente com node -v e npm -v
+
 Node.js é usado para criar aplicativos de servidor com JavaScript. Ele permite que os desenvolvedores executem código JavaScript fora do navegador, o que significa que podem construir servidores, APIs e aplicativos de linha de comando usando JavaScript.
+
 O npm é o gerenciador de pacotes usado com Node.js. Ele ajuda os desenvolvedores a instalar, compartilhar e gerenciar as bibliotecas e ferramentas que seus aplicativos precisam para funcionar corretamente.
 
 # Vue.js:
+
 Instalado no terminal com  npm create vue@latest
-depois de configurar usei no terminal cd C:\Users\fazio\OneDrive - UNIOESTE\Área de Trabalho\Faculdade\2º Ano\TDS\AP05
-e foi colocado vue create e o nome do projeto
-e depois foi colocado no terminal npm install
-e depois foi colocado no terminal cd nome do arquivo e npm run serve ou run dev
-depois no terminal do vscode foi usado npm run dev para rodar a aplicação em um localhost
+
+Depois de configurar usei no terminal cd C:\Users\fazio\OneDrive - UNIOESTE\Área de Trabalho\Faculdade\2º Ano\TDS\AP05
+
+Depois vue create e o nome do projeto
+
+E depois foi colocado no terminal npm install
+
+E a seguir foi colocado no terminal cd nome do arquivo e npm run serve ou run dev
+
+Por fim no terminal do vscode foi usado npm run dev para rodar a aplicação em um localhost
+
 # Bootstrap:
 instalação feita com npm install bootstrap
 
 # Webpack:
+
 Instalação feita com npm install webpack webpack-cli –save-dev
+
 Pode ser utilizado para empacotar e compilar seus arquivos JavaScript, CSS, etc.
 
 # Repositório git e Codeberg:
+
 https://github.com/JoaoFazio/AP05
+
 A criação do repositório foi feita no github em novo repositório e foi atribuído o nome de AP05.
 
