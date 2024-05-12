@@ -425,5 +425,7 @@ O npm é o gerenciador de pacotes usado com Node.js. Ele ajuda os desenvolvedore
 
 https://github.com/JoaoFazio/AP05
 
+https://codeberg.org/JoaoFazio/AP05
+
 #### A criação do repositório foi feita no github em novo repositório e foi atribuído o nome de AP05.
 
